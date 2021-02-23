@@ -1,0 +1,59 @@
+.header{
+   text-align: center;
+    size: 10px;
+    color:red;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+   
+  }
+#startBtn {
+  
+    border-radius: 50%;
+    height: 100px;
+   
+    font-size: 20px;
+    background-color: #f44336;
+    width: 20%;
+   
+ 
+   
+}
+
+
+body {
+    padding: 100px;
+    background-image: url("murdermystry.png");
+   
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.Hello {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  opacity: 1;
+  transition: opacity 0.6s;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
